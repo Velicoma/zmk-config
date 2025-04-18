@@ -18,6 +18,20 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <37 36 0>;
+        };
+
+        bootloader_right {
+            bindings = <&bootloader>;
+            key-positions = <40 41 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
