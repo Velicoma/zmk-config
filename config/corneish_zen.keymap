@@ -21,7 +21,7 @@
     combos {
         compatible = "zmk,combos";
 
-        bootloader {
+        bootloader_left {
             bindings = <&bootloader>;
             key-positions = <37 36 0>;
         };
